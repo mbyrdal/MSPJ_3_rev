@@ -9,5 +9,5 @@ app.UseDefaultFiles(new DefaultFilesOptions
 });
 
 app.UseStaticFiles();
-//bla bla bla 
+
 app.Run();
