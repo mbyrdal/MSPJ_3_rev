@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/styling.css" />
+    <title>Leveringsadresse</title>
+</head>
+<body>
+    <div id="container">
+        <div class="form-container">
+            <form action="#" id="inputFormula">
+                <fieldset>
+                    <legend>Leveringsadresse</legend>
+                    <div class="form-group">
+                        <label for="name">Navn*</label>
+                        <input id="name" name="name" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="house-no">Gadenavn og husnummer mv.*</label>
+                        <input id="house-no" name="house-no" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="post-no">Postnummer</label>
+                        <input id="post-no" name="post-no" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="city">By*</label>
+                        <input id="city" name="city" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input id="email" name="email" type="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-no">Telefon</label>
+                        <input id="phone-no" name="phone-no" type="tel" />
+                    </div>
+                    <button id="btnContinue" type="submit" onclick="getResult()"><span>Fortsæt</span></button>
+                    <button id="btnCancel" type="reset" onclick="clearAll()"><span>Annuller</span></button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
